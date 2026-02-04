@@ -1,0 +1,19 @@
+{
+  "name": "ai-assistant",
+  "version": "1.0.0",
+  "description": "Gemini-like AI web application using MERN stack with Groq API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start"
+  },
+  "keywords": ["ai", "mern", "groq", "voice", "image"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
